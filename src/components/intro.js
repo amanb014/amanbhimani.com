@@ -10,8 +10,7 @@ const Intro = (props) => {
 				<div>{line} =</div>
 				<div>{props.content[line]}</div>
 			</div>
-		)
-	}) : null;
+		)}) : null
 
 	return (
 		<div className="intro-container">
